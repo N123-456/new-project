@@ -1,14 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Barcode from "react-barcode";
 
 function App() {
   return (
-    <div>
-      <h1>Sybrid</h1>
-      <h2>private</h2>
-      <h3>limited</h3>
-    </div>
+    <Barcode value={'ayesha'} />
   );
 }
 
